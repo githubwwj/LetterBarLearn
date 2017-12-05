@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.wwj.letterbar.learn.LetterBar
+            android:layout_width="40dp"
+            android:id="@+id/letterBar"
+            android:layout_alignParentRight="true"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tvDialog"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:alpha="0.8"
+            android:visibility="gone"
+            android:background="@drawable/letterbar"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/item_recyc_type2"
+            android:layout_width="match_parent"
+            android:layout_toLeftOf="@+id/letterBar"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
