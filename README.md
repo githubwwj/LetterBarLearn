@@ -3,6 +3,8 @@
 
 |序号|标题|视频地址|
 |---|----|-----|
+|1|01-Android字母拖动栏|http://www.iqiyi.com/w_19ruud1mvd.html|
+|1|02-Android字幕拖动蓝依赖库|http://www.iqiyi.com/w_19ruuyh8nt.html|
 
 
 有道云笔记地址
